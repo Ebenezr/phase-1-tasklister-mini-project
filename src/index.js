@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
    checkBox.type = "checkbox";
    delBtn.innerText = "X";
-   label.innerText = input;
+   label.innerText = `${input} `;
    taskList.style.listStyleType = "none";
    input.value="";
 
